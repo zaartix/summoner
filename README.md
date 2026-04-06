@@ -93,6 +93,12 @@ Answer the wizard's questions. It will scan your codebase, ask about your archit
 # → independent reviews after each implementation phase
 ```
 
+## Repository structure
+
+- **[MANUAL.md](MANUAL.md)** — Project documentation. Explains the idea, how the wizard works phase by phase, how it differs from the agent system it generates, and what the output looks like.
+- **[SKILL.md](SKILL.md)** — The wizard prompt itself. This is the actual instruction that drives the bootstrap process — it tells the wizard what to do, what to ask, and how to generate each prompt.
+- **[TODO.md](TODO.md)** — Backlog of potential improvements deferred in favor of a simple first version (context splitting, delta updates, task type specialization, subagent teams, etc.).
+
 ## Requirements
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI
